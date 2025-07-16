@@ -1,97 +1,97 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Banco Origen</title>
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-    }
-    header {
-      background-color: #003366;
-      color: white;
-      padding: 20px;
-      text-align: center;
-    }
-    nav a {
-      color: white;
-      margin: 0 15px;
-      text-decoration: none;
-    }
-    section {
-      padding: 40px;
-      text-align: center;
-    }
-    .equipo {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 10px;
-    }
-    .miembro {
-      background-color: #f2f2f2;
-      padding: 15px;
-      border-radius: 8px;
-      width: 60%;
-    }
-    footer {
-      background-color: #003366;
-      color: white;
-      padding: 10px;
-      text-align: center;
-    }
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+    header { background-color: #003366; color: white; padding: 20px; text-align: center; }
+    nav { background-color: #0055a5; padding: 10px; text-align: center; }
+    nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+    section { padding: 20px; }
+    .team, .services { display: flex; flex-wrap: wrap; gap: 20px; }
+    .card { border: 1px solid #ccc; border-radius: 8px; padding: 15px; width: 200px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+    footer { background-color: #003366; color: white; text-align: center; padding: 10px; margin-top: 40px; }
   </style>
 </head>
 <body>
 
-<header>
-  <h1>Banco Origen</h1>
+  <header>
+    <h1>Banco Origen</h1>
+    <p>Solidez, Confianza y Futuro</p>
+  </header>
+
   <nav>
-    <a href="#inicio">Inicio</a>
-    <a href="#equipo">Equipo</a>
+    <a href="#vision">Visión</a>
+    <a href="#servicios">Servicios</a>
+    <a href="#equipo">Nuestro Equipo</a>
     <a href="#contacto">Contacto</a>
   </nav>
-</header>
 
-<section id="inicio">
-  <h2>Bienvenido a Banco Origen</h2>
-  <p>Comprometidos con tu futuro financiero. Soluciones bancarias confiables, seguras y modernas.</p>
-</section>
+  <section id="vision">
+    <h2>Nuestra Visión</h2>
+    <p>Ser el banco líder en soluciones financieras innovadoras, promoviendo el crecimiento sostenible de nuestros clientes y el desarrollo económico del país.</p>
+  </section>
 
-<section id="equipo">
-  <h2>Participantes del Banco</h2>
-  <div class="equipo">
-    <div class="miembro">
-      <h3>Juan Pablo Arias Esteban</h3>
-      <p>Director General</p>
+  <section id="servicios">
+    <h2>Servicios</h2>
+    <div class="services">
+      <div class="card">
+        <h3>Cuentas de Ahorro</h3>
+        <p>Abre tu cuenta de ahorro con beneficios exclusivos y sin comisiones ocultas.</p>
+      </div>
+      <div class="card">
+        <h3>Créditos Personales</h3>
+        <p>Financia tus sueños con tasas competitivas y plazos flexibles.</p>
+      </div>
+      <div class="card">
+        <h3>Inversiones</h3>
+        <p>Haz crecer tu dinero con nuestros productos de inversión a corto y largo plazo.</p>
+      </div>
+      <div class="card">
+        <h3>Banca Empresarial</h3>
+        <p>Soluciones financieras para hacer crecer tu empresa.</p>
+      </div>
     </div>
-    <div class="miembro">
-      <h3>Maria Paula Dias Riatiga</h3>
-      <p>Jefa de Estrategia</p>
-    </div>
-    <div class="miembro">
-      <h3>Nicol Zaray Muñoz Aparicio</h3>
-      <p>Directora de Tecnología</p>
-    </div>
-    <div class="miembro">
-      <h3>Darec Samuel Suarez Carrizalez</h3>
-      <p>Director de Operaciones</p>
-    </div>
-  </div>
-</section>
+  </section>
 
-<section id="contacto">
-  <h2>Contacto</h2>
-  <p>Correo: contacto@bancoorigen.com</p>
-  <p>Teléfono: +57 1 234 5678</p>
-</section>
+  <section id="equipo">
+    <h2>Nuestro Equipo</h2>
+    <div class="team">
+      <div class="card">
+        <h3>Maria Paula Dias Riatiga</h3>
+        <p><strong>Cargo:</strong> Gerente General</p>
+        <p>Lidera el banco con una visión clara hacia el futuro y la excelencia en el servicio.</p>
+      </div>
+      <div class="card">
+        <h3>Nicol Zaray Muñoz Aparicio</h3>
+        <p><strong>Cargo:</strong> Analista Financiera</p>
+        <p>Encargada de evaluar riesgos y oportunidades de inversión para nuestros clientes.</p>
+      </div>
+      <div class="card">
+        <h3>Juan Pablo Arias Esteban</h3>
+        <p><strong>Cargo:</strong> Guardia de Seguridad</p>
+        <p>Vigila y protege nuestras instalaciones para garantizar la seguridad de todos.</p>
+      </div>
+      <div class="card">
+        <h3>Darec Samuel Suarez Carrizalez</h3>
+        <p><strong>Cargo:</strong> Cliente</p>
+        <p>Usuario activo de nuestros servicios, representa la confianza y satisfacción del cliente.</p>
+      </div>
+    </div>
+  </section>
 
-<footer>
-  <p>&copy; 2025 Banco Origen. Todos los derechos reservados.</p>
-</footer>
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>Dirección: Calle 123 #45-67, Ciudad Central</p>
+    <p>Teléfono: +57 300 123 4567</p>
+    <p>Email: contacto@bancoorigen.com</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Banco Origen. Todos los derechos reservados.</p>
+  </footer>
 
 </body>
 </html>
